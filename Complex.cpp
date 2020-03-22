@@ -1,9 +1,5 @@
-#include<iostream>
+#include "complex.h"
+#include <iostream>
+#include <cmath>
+#include <string>
 using namespace std;
-int main()
-{
-	cout << "hello adi";
-	cout << "modificare pt sarah";
-
-	return 0;
-}
