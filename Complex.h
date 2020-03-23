@@ -1,12 +1,13 @@
-#include "complex.h"
+#pragma once
+#pragma once
 #include <iostream>
 #include <cmath>
 #include <string>
 using namespace std;
 
-Complex::Complex()
+class Complex
 {
-	r = 0;
-	i = 0;
-}
-
+private:
+	double re;
+	double im;
+};
