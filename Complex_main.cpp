@@ -9,7 +9,7 @@ void print_complex()
 	double a, b;
 	cout << "Forma algebrica a unui numar complex este: " << endl;
 	cout << "Scrieti partea reala a numarului complex: ";
-	cin >> a;
+	cin >> a; 
 	cout << "Scrieti partea imaginara a numarului complex: ";
 	cin >> b;
 	Complex x(a, b);
