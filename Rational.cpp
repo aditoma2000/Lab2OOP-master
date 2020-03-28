@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int add_rational(int n1, int d1, int n2, int d2)
+int Rational::add_rational(int n1, int d1, int n2, int d2)
 {
     //(n1/d1 + n2/d2)
     int numerator, denominator;
@@ -16,7 +16,7 @@ int add_rational(int n1, int d1, int n2, int d2)
     }
     return 0;
 }
-int mul_rational(int n1, int d1, int n2, int d2)
+int  Rational::mul_rational(int n1, int d1, int n2, int d2)
 {
         //(n1/d1) * (n2/d2)
     int numerator, denominator;
@@ -30,7 +30,7 @@ int mul_rational(int n1, int d1, int n2, int d2)
         }
         return 0;
  }
-int div_rational(int n1, int d1, int n2, int d2)
+int Rational::div_rational(int n1, int d1, int n2, int d2)
 {
     //(n1/d1) / (n2/d2)
     int numerator, denominator;

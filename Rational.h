@@ -1,5 +1,17 @@
 #pragma once
 #include<iostream>
-int add_rational();
-int mul_rational();
-int div_rational();
+
+class Rational
+{
+public:
+	int add_rational();
+	int mul_rational();
+	int div_rational();
+};
+
+
+
+
+
+
+
